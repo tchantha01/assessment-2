@@ -25,7 +25,7 @@
 
 const greetUser = (username) =>  `Welcome back, ${username}`
 
-console.log(greetUser('Toky'))
+// console.log(greetUser('Toky'))
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -53,13 +53,13 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 const canWeDeliver = (zipCode) => {
     for (let i =0; i < deliveryAreaZipCodes.length; i++){
-        return `Your're in our delivery zone!` === deliveryAreaZipCodes.length[i]
+        return `Your're in our delivery zone!` !== deliveryAreaZipCodes.length[i]
     }{
         return `Sorry, we can't deliver to that address` 
     }
 }
  
-console.log(canWeDeliver(85204))
+// console.log(canWeDeliver(85204))
 
 /* 
     Problem 2 Continued
