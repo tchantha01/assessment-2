@@ -40,7 +40,7 @@ class Ticket {
 }
 updateStatus(newStatus){
     this.status = newStatus
-    console.log(`The order for customer ${customerId} is now ${status}`)
+    // console.log(`The order for customer ${customerId} is now ${status}`)
 
 }
 }
@@ -70,5 +70,5 @@ let firstTicket = new Ticket('pizza', '5:30 PM', 123)
 
 //CODE HERE
 
-firstTicket.updateStatus()
-console.log(firstTicket.status, 'cooking')
+firstTicket.updateStatus('cooking')
+console.log(firstTicket.status)
