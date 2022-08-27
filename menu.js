@@ -226,7 +226,7 @@ console.log(filteredFood)
     You'll have to console.log to see the filtered array
 */
 
-//CODE HERE
+//CODE HERE//
 
 console.log(filterByProperty('popularity', 3, 'below') )
 
