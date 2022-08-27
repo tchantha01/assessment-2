@@ -27,7 +27,7 @@ class Employee {
         this.shifts = shifts
     }
     getSchedule(){
-        // console.log(`${this.name} works on ${this.shifts}`)
+        console.log(`${this.name} works on ${this.shifts}`)
     }
 }
  
@@ -53,7 +53,7 @@ let empOne = new Employee('Jess', 'weekday mornings, weekday afternoons')
 
 //CODE HERE
 
-// empOne.getSchedule()
+empOne.getSchedule()
 
 /*
     Make a copy of the empOne object
@@ -69,10 +69,10 @@ let empOne = new Employee('Jess', 'weekday mornings, weekday afternoons')
 
 //CODE HERE
 
-// const empTwo = {...empOne}
+const empTwo = {...empOne}
 
-// empTwo.name = 'Nick'
-// console.log(empTwo)
+empTwo.name = 'Nick'
+console.log(empTwo)
 //////////////////PROBLEM 2////////////////////
 /*  
     Write a class called Manager that *extends* 
@@ -140,7 +140,7 @@ manager.getEmployees()
 */
 
 //CODE HERE 
-// manager.addEmployee('Coach')
+manager.addEmployee('Coach')
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
@@ -149,4 +149,4 @@ manager.getEmployees()
 
 //CODE HERE
 
-// manager.getEmployees()
+manager.getEmployees()
