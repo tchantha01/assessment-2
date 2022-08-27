@@ -139,7 +139,7 @@ console.log(deals[0].title)
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+//CODE HERE//
 
 deals[1].desc = deals[1].desc.replace('March', 'April')
 const trimDesc = deals[1].desc.trim()
