@@ -90,7 +90,11 @@ console.log(calcFinalPrice(summedPrice, 5, .06))
 /*
     TEXT ANSWER HERE
 
-*/
+    My cart page will have the basic information needed for an order without having the customer feel as if they are having to provide sensitive information.
+    Those properties include; first name, last name, address, and phone number. The names indicate the person placing the order. The address provides 
+    information for delivery and also if they are within the delivery range. The phone number is a form of direct contact if something with their order changes.
+*   The data type for the names property will be a string. String allows the use of letters. The address property will be a combination of string and numbers,
+    that will 
 
 /*
     Now, create a customer object following your own
@@ -99,9 +103,9 @@ console.log(calcFinalPrice(summedPrice, 5, .06))
 
 //CODE HERE
 
-// const firstCustomer = {
-//     firstName: 'Toky',
-//     lastName: 'Chanthavong',
-//     address: '123 W ABC S',
-//     phoneNumber: 
-// }
+const firstCustomer = {
+    firstName: 'Toky',
+    lastName: 'Chanthavong',
+    address: '123 W ABC S',
+    phoneNumber: '801-132-9876' 
+}
