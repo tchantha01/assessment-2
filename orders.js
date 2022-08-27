@@ -70,7 +70,7 @@ console.log(firstTicket)
     'cooking'
 */
 
-//CODE HERE
+//CODE HERE//
 
 firstTicket.updateStatus('cooking')
 console.log(firstTicket)
