@@ -99,9 +99,9 @@ console.log(calcFinalPrice(summedPrice, 5, .06))
 
 //CODE HERE
 
-const firstCustomer = {
-    firstName: 'Toky',
-    lastName: 'Chanthavong',
-    address: '123 W ABC S',
-    phoneNumber: 
-}
+// const firstCustomer = {
+//     firstName: 'Toky',
+//     lastName: 'Chanthavong',
+//     address: '123 W ABC S',
+//     phoneNumber: 
+// }
