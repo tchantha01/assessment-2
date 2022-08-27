@@ -73,4 +73,4 @@ console.log(firstTicket)
 //CODE HERE
 
 firstTicket.updateStatus('cooking')
-// console.log(firstTicket.newStatus)
+console.log(firstTicket)
