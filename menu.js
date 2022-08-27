@@ -32,7 +32,7 @@
 
 //CODE HERE
 
-let pizza = {
+const pizza = {
     name: 'The deluxe',
     price: 15,
     category:'entree',
@@ -151,12 +151,14 @@ const foodArr = [
 
 //CODE HERE
 
- const filteredFood = foodArr.filter(function(food) {
-    return foodArr.name === tags[0]
+ const filteredFood = foodArr.filter((food) => {
+      if(food.tags.includes('low sodium')){
+    return food
+   }
 
  })
 
-console.log(tags('low sodium'))
+console.log(filteredFood)
 
 
 //////////////////PROBLEM 5////////////////////
@@ -199,7 +201,10 @@ console.log(tags('low sodium'))
 */
 
 //CODE HERE
-const filterByProperty = (property, number, type)
+
+const filterByProperty = (property, number, type) => {
+    
+}
 
 /*
     Invoke the `filterByProperty` function passing

@@ -35,8 +35,8 @@ const cart = [
 
 //CODE HERE
 
-const summedPrice = cart.reduce((acc, curr) => acc.price + curr.price)
-
+const summedPrice = cart.reduce((acc, curr) => acc + curr.price, 0)
+console.log(summedPrice)
 
 //////////////////PROBLEM 2////////////////////
 /*  
