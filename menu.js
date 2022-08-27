@@ -75,7 +75,7 @@ console.log(pizza.tags[1])
 
 //CODE HERE
 
-
+let {price} = pizza
 
 // 
 /*
@@ -87,6 +87,9 @@ console.log(pizza.tags[1])
 
 //CODE HERE
 
+let {category} = pizza
+
+console.log(`$${price} is the price of our ${category}`)
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -203,7 +206,7 @@ console.log(filteredFood)
 //CODE HERE
 
 const filterByProperty = (property, number, type) => {
-    
+
 }
 
 /*
