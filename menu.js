@@ -206,9 +206,19 @@ console.log(filteredFood)
 //CODE HERE
 
 const filterByProperty = (property, number, type) => {
+    const filteredFood = foodArr.filter((food) => {
+        if (type === 'above'){
+            return food[property] >= number
+        }else{
+            return food[property] <= number
+        }
+
+    })
+    return filteredFood
 
 }
 
+console.log(filteredFood)
 /*
     Invoke the `filterByProperty` function passing
     in a value for each paramter.
@@ -217,3 +227,6 @@ const filterByProperty = (property, number, type) => {
 */
 
 //CODE HERE
+
+console.log(filterByProperty('popularity', 3, 'below') )
+
