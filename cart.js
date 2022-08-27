@@ -50,10 +50,20 @@ console.log(summedPrice)
     number. 
 
     Note: the numbers passed in for `tax` will be
-    decimals, for example: .06 for a 6% tax.
+    decimals, for example: .06 for a 6% tax. or 1.06 (1+.06)
 */
 
 //CODE HERE
+
+const calcFinalPrice = (carTotal, couponValue, tax) => {
+    const totalBeforeCoupon = carTotal * (1 + tax)
+    const finalPrice = totalBeforeCoupon - couponValue
+
+    return finalPrice
+
+}
+
+console.log(calcFinalPrice(summedPrice, 5, .06))
 
 
 
@@ -88,3 +98,10 @@ console.log(summedPrice)
 */
 
 //CODE HERE
+
+const firstCustomer = {
+    firstName: 'Toky',
+    lastName: 'Chanthavong',
+    address: '123 W ABC S',
+    phoneNumber: 
+}
