@@ -1,0 +1,7 @@
+Phonak/Sonova (hearing aid brand that my daughter has used in the past). 
+	While researching this company, it was initially hard to find information regarding the tech stack that company utilizes. Searching through employment opportunites gave a glimps of what tech stack they used. Under 'Embedded Software Engineer', the tasks describes programming in C, debugging, testing and interagating in embedded environment for communication devices. Using Python for development and testing. Running protocols with: I2C, SPI and UART. Tools like oscilloscope and logic analyzer for debugging. They also mention that GIT version control is used in teams of up to 10 people. 
+	For their Software Engineer C# .NET  and web backend solutions position. The company wants potential candidates to be able to apply a list of technologies that includes; .NET Core 3.1, Terraform, CosmosDB, Service Bus and other Azure services, Serilog, ELK stack (Elasticsearch, Lagstach, Kibana), xUnit, git, GitHub, Octopus, Docker, Kubernetes, Visual Studio 2022, ReSharper, and Rider. 
+
+
+
+    
